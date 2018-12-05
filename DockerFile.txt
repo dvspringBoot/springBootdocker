@@ -1,4 +1,0 @@
-FROM java:8
-EXPOSE 8080
-ADD /target/AdvanceRest.jar AdvanceRest.jar
-ENTRYPOINT ["java", "-jar", "AdvanceRest.jar"]
